@@ -1,0 +1,15 @@
+@import "./styles/colors";
+$theme-colors: (
+    "primary": $secondary,
+    "danger": teal
+);
+
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "./styles/auth";
+@import "./styles/home";
+
+body{
+  background-color: $primary;
+}

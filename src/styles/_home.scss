@@ -1,0 +1,7 @@
+.home__main-banner{
+    min-height: 400px;
+
+    &::after{
+        opacity: 0.5;
+    }
+}
